@@ -35,9 +35,22 @@ Como o usuário vai estar logado no sistema, não é necessário pedir para ele 
 
 => Análise e decisão sobre a solicitação
 
+Antes de chegar em um analista humano, vamos ter critérios de eliminação automática, minha sugestão é:
+- Score mínimo
+- Data da última solicitação (para evitar spam)
 
+Caso, a solicitação não seja automaticamente indeferida, ela fica aguardando análise.
 
-Analista (da Woovi?) olha a solicitação e toma uma decisão. (Essa parte do processo pode eventualmente ser automatizada, acho que no começo vamos querer olhar cada solicitação individualmente para criarmos uma heuristica)
+Um analista nosso olha a solicitação e toma uma decisão de deferir ou indeferir o pedido de crédito, assim como o valor que vai ser disponibilizado.
+
+No começo e para os casos de "cartão" de crédito, o valor provavelmente vai ser tirado de uma formula baseada no score do cliente e no volume de capital que ele costuma movimentar. Eu prefiro não entrar em detalhes a respeito disso porque eu realmente não sei como fazer essa conta.
+
+Essa parte do processo pode eventualmente ser mais automatizada, acho que no começo vamos querer olhar cada solicitação individualmente para criarmos uma heuristica.
+
+Caso o analista decida indeferir a solicitação, ele escreve uma nota em um campo de observações.
+
+Caso ele decida deferir a solicitação, vamos atualizar também a conta de crédito do usuário com o valor.
 
 => Feedback sobre a solicitação
 
+O cliente recebe um feedback na conta dele (pode ser uma notificação no nosso aplicativo) dizendo o que houve com a solicitação dele.

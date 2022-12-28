@@ -6,11 +6,12 @@ Esse documento serve para representar soliticações de créditos dos nossos cli
 _Modelo_
 
 ```json
-{
-    "id":"id aleatório",
+{   
+    "id":"jf249308guj309q0i",
     "creation":234567654322345,
-    "accId":"id da conta que fez a solicitação",
-    "status":0
+    "accId":"dlkfjg34o30392ifkjd",
+    "status":0,
+    "creditGranted": 9324.21
 }
 ```
 
@@ -35,3 +36,12 @@ Vamos usar esse Id para fazer uma query do score de crédito que o usuário tem 
 
 Enumerador que contém os possíveis estados da solicitação de crédito.
 
+__Estados__
+- Solicitação feita: 0
+- Solicitação deferida: 1
+- Solicitação indeferida automaticamente: 2
+- Solicitação indeferida manualmente: 3
+
+### Credit Granted
+
+Valor em reais de crédito que foi deferido por conta dessa solicitação.

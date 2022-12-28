@@ -34,3 +34,6 @@ Falso por padrão.
 
 Valor de crédito total de para um cliente.
 
+Esse valor é atualizado quando um cliente tem uma solicitação de crédito deferida.
+
+Mas caso a gente precise reconstruir o banco de dados a partir 

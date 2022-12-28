@@ -9,7 +9,7 @@ Repositório para resolver o desafio da Woovi.
 
 O desafio é criar um sistema de crédito em cima do pix.
 
-Eu tentei assumir o ponto de vista de um arquiteto de software/gerente de produto, dada a natureza do desafio, eu acho difícil desassociar a parte de definição de produto da solução tecnica.
+Eu tentei assumir o ponto de vista de um arquiteto de software/gerente de produto, dada a natureza do desafio, eu acho difícil desassociar a parte de definição de produto com a solução tecnica.
 
 Esse design de sistema foi feito supondo que já existe um sistema de pagamentos por pix e que os dados dessas transações são guardados.
 
@@ -39,7 +39,6 @@ O <a href="./atividades.md">documento de atividades</a> lista o que as pessoas p
 O elemento central de como esse sistema funciona é a formula de crédito, pensando nisso, eu fiz um <a href="./formula_score.md">documento</a> separado para falar a respeito dela.
 
 <hr>
-
 
 ## Domínio
 
