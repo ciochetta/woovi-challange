@@ -26,7 +26,7 @@ Chave primária, pode ser o id auto-definido pelo DBMS.
 
 Data de criação em milisegundos.
 
-### AccId
+### Account Id
 
 Chave estrangeira, Id da conta do usuário que está solicitando crédito.
 

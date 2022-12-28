@@ -12,6 +12,7 @@ Esse modelo deve ser usado dentro de um array, dentro de um <a href="./transacao
     "accRole": "processor",
     "type": "processing fee",
     "transferDate": 34567898765,
+    "dueDate": 34567898765,
     "status": 2
 }
 ```
@@ -30,11 +31,11 @@ Valor em reais que foi ou será movimentado dessa conta.
 
 Se o valor for positivo significa que a conta deve receber dinheiro, se for negativo, que deve ser cobrado esse valor.
 
-### Acc(ount) Id
+### Account Id
 
 Id da conta de crédito referenciada na movimentação.
 
-### Acc(ount) Role
+### Account Role
 
 Enumerador que representa o papel que essa conta está prestando nessa transação.
 
@@ -48,3 +49,25 @@ __Valores__
 
 Enumerador que diz o que essa movimentação representa dentro da transação.
 
+__Valores__
+- Entrada: 0
+- Venda: 1
+- Taxa de processamento: 2
+- Pagamento de parcela: 3
+- Juros: 4
+
+### Transfer Date
+
+Data que a transferência foi feita.
+
+### Due Date
+
+Data em que a transferência deveria ser feita.
+
+### Status
+
+Enumerador que representa se essa movimentação já ocorreu ou ainda deve acontecer.
+
+__Valores__
+- Done
+- Waiting

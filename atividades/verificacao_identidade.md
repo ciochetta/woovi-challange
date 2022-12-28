@@ -20,4 +20,8 @@ Quando a gente receber o valor e as informações baterem, dizemos que a conta f
 
 Pode ser algo simples como clicar em um botão no perfil escrito "verificar conta"
 
-No servidor, vamos gerar um <a href="../models/verificacao.md">documento de verificação</a>
+No servidor, vamos gerar um <a href="../models/verificacao.md">documento de verificação</a> junto com uma <a href="../models/cobranca.md" >cobrança</a>
+
+Em seguida, o usuário deve realizar o <a href="./pagamento_cobranca.md">pagamento dessa cobrança</a> à vista, usando pix
+
+Uma subrotina deve ficar observando o estado do pagamento, quando ele estiver concluído, deve-se alterar o estado do documento de verificação (para que ele seja desconsiderado por essa subrotina posteriormente) e também atualizar a conta do usuário.

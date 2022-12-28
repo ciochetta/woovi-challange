@@ -89,7 +89,7 @@ __Enviando pagamento__
 Movimentando o dinheiro da conta do financiador para o comerciante.
 
 __Aguardando parcelas__
-Pagamos o comerciante e o cliente já deve ter seu produto/serviço? em mãos.
+Pagamos o comerciante e o cliente já deve ter seu produto/serviço em mãos.
 
 Mantemos nesse status enquanto houverem parcelas não-pagas dentro do array de movements.
 

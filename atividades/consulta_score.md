@@ -10,12 +10,16 @@ Um nice-to-have seria permitir o compartilhamento do resultado (completo ou parc
 
 Usuário
 - Conta de crédito
-- Identidade <a href="./prova_de_identidade.md">provada</a>
+- Identidade <a href="./verificacao_identidade.md">provada</a>
 
 ## Processo
 
 => Query no banco com as transações passadas do CPF/CNPJ
 
+=> Query no Serasa
+
 => Fórmula de score
+
+=> Se o usuário está solicitando uma consulta do próprio score ou seja um analista fazendo uma análise de crédito, mantemos os detalhes de como chegamos no resultado. Caso contrário, removemos os detalhes e enviamos somente o resultado.
 
 => Renderizamos o resultado
