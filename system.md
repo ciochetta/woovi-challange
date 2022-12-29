@@ -94,7 +94,7 @@ O público-alvo desse sistema são analistas da financiadora (Woovi, nesse caso)
 
 Essa atividade é a principal funcionalidade desse sistema
 
-A ideia é que um analista de um financiador tenha acesso à uma lista de <a href="./models/solicitacao_credito">solicitações de crédito</a>.
+A ideia é que um analista de um financiador tenha acesso à uma lista de <a href="./models/solicitacao_credito.md">solicitações de crédito</a>.
 
 Para cada uma dessas solicitações, ele consiga fazer pesquisas a respeito do score do usuário que fez a solicitação e também a respeito das transações passadas.
 
